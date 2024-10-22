@@ -1,0 +1,26 @@
+table {
+    width: 100%; /* Le tableau prend toute la largeur de son conteneur */
+    max-width: 1200px; /* Limite la largeur maximale du tableau */
+    border-collapse: collapse; /* Évite les espaces entre les cellules */
+    margin: 0 auto; /* Centre le tableau horizontalement */
+}
+
+th, td {
+    text-align: center; /* Centre le texte dans les cellules */
+    padding: 10px; /* Ajoute de l'espace autour du texte */
+    border: 1px solid #ddd; /* Ajoute une bordure pour une meilleure visibilité */
+}
+
+th {
+    background-color: #f2f2f2; /* Couleur de fond pour l'en-tête */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    th, td {
+        display: block; /* Transforme les cellules en blocs */
+        width: 100%; /* Chaque cellule prend toute la largeur */
+    }
+}
+
+
